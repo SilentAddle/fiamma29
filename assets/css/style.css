@@ -253,7 +253,6 @@ ul {list-style-type: none;}
 .event-image-header {
     padding-left: 9px;
     padding-top: 3px;
-    background-color: #471116;
     width: 100%;
 }
 
@@ -269,6 +268,12 @@ ul {list-style-type: none;}
     padding: 0px;
 }
 
+.followme {
+    display:block;
+    padding-left: 50px;
+    height:40px;
+}
+
 .socialitem {
     height: 60px;
     text-align: center;
@@ -277,6 +282,12 @@ ul {list-style-type: none;}
 
 .socialitem a {
     text-decoration: none;
+}
+
+.follow-anchor {
+    text-decoration: none;
+    font-size: 30px;
+    font-family: "Yanone Kaffeesatz", sans-serif;
 }
 
 .socialitem a i {
@@ -298,6 +309,21 @@ ul {list-style-type: none;}
 }
 
 .social-youtube:hover {
+    transition: all 0.3s ease;
+    color: #B13127!important;
+}
+
+.followme:hover .social-twitch {
+    transition: all 0.3s ease;
+    color: #6441A4!important;
+}
+
+.followme:hover .social-twitter {
+    transition: all 0.3s ease;
+    color: #1da1f2!important;
+}
+
+.followme:hover .social-youtube {
     transition: all 0.3s ease;
     color: #B13127!important;
 }
@@ -326,4 +352,22 @@ ul {list-style-type: none;}
 
 .blog-post-content {
     padding: 0px 15px 0px 15px;
+}
+
+/*******************************************************************************Contact*/
+
+button[type="submit"] {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    background-color: #FF4136;
+    color: #fafafa;
+}
+
+.contact-header {
+    font-family: "Yanone Kaffeesatz", sans-serif;
+    font-size: 3.5em;
+}
+
+.contact-subheader {
+    padding-bottom:5px;
 }
