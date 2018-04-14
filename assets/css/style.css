@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+/*******************************************************************************Background colours*/
+.header-background-color {
+    background-color: #190608;
+    color: #fafafa;
+}
+
+.ui-menu-red {
+    color: #721b24!important;
+}
+
+
+.ui-menu-gray {
+    color: #fafafa!important;
+}
+
+body {
+    background-color: #2d090d;
+}
+
+/*******************************************************************************Specials*/
+
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+.container, .container-fluid {
+    margin: 0px;
+    padding: 0px;
+}
+
+.header .section .footer {
+    margin: 0px;
+    padding: 0px;
+}
+
+/*******************************************************************************Header*/
+
+.logo-header {
+    padding: 0px;
+}
+
+.logo {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    transition: all 1.5s ease-in-out;
+    -moz-transition: all 1.5s ease-in-out;
+    -webkit-transition: all 1.5s ease-in-out;
+    margin:0px;
+    padding: 0px;
+    border-radius: 50%;
+    
+}
+
+
+#nav {
+    margin: 0px;
+}
+
+#nav li {
+    padding: 0px;
+}
+
+.menuitem {
+    height: 70px;
+    text-align: center;
+    padding: 0px;
+}
+
+.menuitem a {
+    width: 100%;
+    text-decoration: none;
+    color: #ffffff;
+    height: 20px;
+    font-family: "Yanone Kaffeesatz", sans-serif;
+}
+
+.menuitem a i {
+    padding-top: 5px;
+    display: block;
+    color: #fafafa;
+    font-size: 20px;
+    
+}
+
+.menuitem span {
+    display: block;
+    width: 100%;
+    padding-top: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+
+.title {
+    font-family: "Yanone Kaffeesatz", sans-serif;
+    font-weight:300;
+    font-size: 7vw;
+    text-align: center;
+}
+
+.subtitle {
+    font-family: "Yanone Kaffeesatz", sans-serif;
+    font-size: 3vw;
+    text-align: center;
+    margin-top:-10px;
+    font-weight: 200;
+}
+
+ @media only screen and (max-width: 922px) {
+
+       .title {
+           font-size: 10vw;
+       }
+       
+       .calendar {
+           width: 90%;
+           margin-bottom: 10px;
+       }
+
+    }
+    
+
+/*******************************************************************************Calendar*/
+    
+
+.calendar {
+    width:70%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+ul {list-style-type: none;}
+
+/* Month header */
+.month {
+    padding: 5px 5px;
+    width: 100%;
+    background: #471116;
+    text-align: center;
+}
+
+/* Month list */
+.month ul {
+    margin: 0;
+    padding: 0;
+}
+
+.month ul li {
+    color: white;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+/* Previous button inside month header */
+.month .prev {
+    float: left;
+    padding-top: 10px;
+}
+
+/* Next button */
+.month .next {
+    float: right;
+    padding-top: 10px;
+}
+
+/* Weekdays (Mon-Sun) */
+.weekdays {
+    margin: 0;
+    padding: 10px 0;
+    background-color:#ddd;
+}
+
+.weekdays li {
+    display: inline-block;
+    width: 12.6%;
+    color: #666;
+    text-align: center;
+}
+
+/* Days (1-31) */
+.days {
+    padding: 10px 0;
+    background: #eee;
+    margin: 0;
+}
+
+.days li {
+    list-style-type: none;
+    display: inline-block;
+    width: 12.6%;
+    text-align: center;
+    margin-bottom: 5px;
+    font-size:12px;
+    color: #777;
+}
+
+/* Highlight the "current" day */
+.days li .active {
+    padding: 5px;
+    background: #601119;
+    color: white !important;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+}
+
+
+/*******************************************************************************Event*/
+
+.event {
+    width: 90%;
+    border-radius: 20px;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+
+.event-image {
+    max-width:100%;
+    max-height:100%;
+}
+
+.event-image-header {
+    padding-left: 9px;
+    padding-top: 3px;
+    background-color: #471116;
+    width: 100%;
+}
+
+
+/*******************************************************************************Social*/
+
+
+#social {
+    margin: 0px;
+}
+
+#social li {
+    padding: 0px;
+}
+
+.socialitem {
+    height: 60px;
+    text-align: center;
+    padding: 0px;
+}
+
+.socialitem a {
+    text-decoration: none;
+}
+
+.socialitem a i {
+    padding-top: 15px;
+    display: block;
+    color: #fafafa;
+    font-size: 20px;
+    
+}
