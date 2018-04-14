@@ -32,6 +32,12 @@ body {
     padding: 0px;
 }
 
+.margin-reset {
+    margin: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
 .ui-menu-red {
   animation: pulse 5s infinite;
 }
