@@ -27,9 +27,10 @@ body {
     padding: 0px;
 }
 
-.header .section .footer {
+.header section footer {
     margin: 0px;
     padding: 0px;
+    width: 100%!important;
 }
 
 .margin-reset {
@@ -75,6 +76,9 @@ body {
     
 }
 
+.img-logo {
+    width:100%;
+}
 
 #nav {
     margin: 0px;
